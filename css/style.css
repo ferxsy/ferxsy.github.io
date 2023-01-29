@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@font-face {
+    font-family: 'SF Display';
+    src:url(../fonts/SanFranciscoDisplay-bold.otf) format("Opentype");
+}
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+header {
+    background-color: gray;
+    padding: 1rem 2rem;
+}
+
+header h1 {
+    font-family: 'SF Display';
+    background: linear-gradient(to right, #d81e1e 0%, #700000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: none;
+    display: inline-block;  
+}
+ul {
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 25px 10px;
+}
+ul li a {
+    transition: top 0.3s ease;
+    text-decoration: none;
+    color: black;
+    transition: color 0.6s ease;
+    position: relative;
+    top: 10px;
+}
+ul li a:hover {
+    color: aquamarine;
+    position: relative;
+    top: 12px;
+}
+section {
+    max-width: 400px;
+    margin: 0 auto;
+}
+article {
+    transition: box-shadow 0.4s ease-in-out;
+    transition: transform 0.3s ease;
+    background-color: rgb(226, 226, 226);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: -2px 8px 5px rgba(0,0,0,0.4);
+    transform: scale(1.01);
+}
+
+article p {
+    width: 300px;
+    font-family: 'Inter';
+    font-weight: lighter;
+    margin: 1rem;
+}
+
+article h1 {
+    margin: 1rem;
+}
+
+article img {
+    width: 200px;
+    margin: 0 5rem 0;
+    border-radius: 100px;
+}
+
+.snapshot {
+    width: 400px;
+    max-width: 500px;
+    transition: box-shadow 0.4s ease-in-out;
+    background-color: rgb(174, 221, 174);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+.snapshot img {
+    margin: 0;
+    width: 400px;
+    height: 250px;
+    border-radius: 0;
+}
+#discord {
+    border-radius: 0;
+}
+
+footer {
+    background-color: #222;
+    padding: 1rem;
+    color: white;
+    flex: 0 0 50px;
+}
+.discord {
+    background-color: rgb(189, 194, 241);
+}
+.derecha {
+    transition: box-shadow 0.4s ease-in-out;
+    transition: transform 0.3s ease;
+    background-color: rgb(125, 214, 199);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    position: absolute;
+    left: 21px;
+    bottom: 350px;
+    max-width: 400px;
+    max-height: 200px;
+}
+.derecha h1 {
+    font-family: 'Inter';
+    font-weight: bolder;
+    background: linear-gradient(to right, #1e68d8 0%, #2519c9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: none;
+    margin: 0;
+    text-align: center;
+}
+.discordwid {
+    position: absolute;
+    left: 950px;
+    top: 1.45in;
+    max-width: 400px;
+    max-height: 500px;
+}
