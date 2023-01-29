@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 @font-face {
     font-family: 'SF Display';
-    src:url(../fonts/SanFranciscoDisplay-bold.otf) format("Opentype");
+    src:url(/fonts/SanFranciscoDisplay-bold.otf) format("Opentype");
 }
 body {
     font-family: 'Montserrat';
