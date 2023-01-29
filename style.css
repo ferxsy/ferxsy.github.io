@@ -116,7 +116,7 @@ footer {
     border-radius: 0.5rem;
     padding: 0.25rem 0;
     cursor: pointer;
-    position: absolute;
+    position: relative;
     left: 21px;
     bottom: 350px;
     max-width: 400px;
@@ -133,7 +133,7 @@ footer {
     text-align: center;
 }
 .discordwid {
-    position: absolute;
+    position: relative;
     left: 950px;
     top: 1.45in;
     max-width: 400px;
